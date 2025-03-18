@@ -34,8 +34,8 @@
   },
   "homepage": "https://github.com/vh13294/nestjs-url-generator#readme",
   "devDependencies": {
-    "@nestjs/common": "^10.3.4",
-    "@nestjs/core": "^10.3.4",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^18.11.9",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
@@ -55,7 +55,7 @@
   "peerDependencies": {
     "@nestjs/common": "^10.3.4",
     "@nestjs/core": "^10.3.4",
-    "@nestjs/testing": "^10.3.4",
+    "@nestjs/testing": "^10.3.4 || ^11.0.0",
     "reflect-metadata": "^0.2.1"
   },
   "dependencies": {
