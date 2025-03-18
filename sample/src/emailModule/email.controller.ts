@@ -36,13 +36,12 @@ export class EmailController {
       },
     };
 
-    const urlGenerator = this.urlGeneratorService.generateUrlFromController({
+    return this.urlGeneratorService.generateUrlFromController({
       controller: EmailController,
       controllerMethod: EmailController.prototype.target,
       query: query,
       params: emailParams,
     });
-    return urlGenerator;
   }
 
   @Get('emailVerification/version/:version/user/:userId')
@@ -73,13 +72,12 @@ export class EmailController {
       },
     };
 
-    const urlGenerator = this.urlGeneratorService.signControllerUrl({
+    return this.urlGeneratorService.signControllerUrl({
       controller: EmailController,
       controllerMethod: EmailController.prototype.emailVerification,
-      expirationDate: new Date('2022-12-12'),
+      expirationDate: new Date('2030-12-12'),
       query: query,
       params: emailParams,
     });
-    return urlGenerator;
   }
 }
