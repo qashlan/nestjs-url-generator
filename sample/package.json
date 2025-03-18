@@ -26,7 +26,7 @@
     "@nestjs/config": "^4.0.0",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.4.14",
-    "nestjs-url-generator": "file:nestjs-url-generator-1.0.2.tgz",
+    "nestjs-url-generator": "file:nestjs-url-generator-2.0.0.tgz",
     "reflect-metadata": "^0.2.0",
     "rimraf": "^6.0.0",
     "rxjs": "^7.8.1"
