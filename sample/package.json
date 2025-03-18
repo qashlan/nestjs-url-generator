@@ -44,5 +44,8 @@
     },
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10"
   }
 }
